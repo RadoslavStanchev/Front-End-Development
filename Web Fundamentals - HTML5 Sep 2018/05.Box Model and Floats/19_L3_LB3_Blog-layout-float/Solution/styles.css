@@ -1,0 +1,87 @@
+
+
+body {
+    padding: 5rem;
+    background:rgb(238, 238, 238);
+    font-family: "Helvetica", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header,h1,h2, blockquote {
+    font-family: "Georgia", sans-serif;
+}
+
+header, h1, h2 {
+    font-size: 1em;
+}
+.site {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.site:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.site > header:first-of-type {
+    border-bottom: 2px solid #000;
+}
+
+.site-title {
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding-right: 5vw;
+    font-weight: bold;
+    color: #000;
+    display: inline-block;
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    border: 0.4rem black solid;
+    padding: 0.9rem;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.25);
+    background: (255, 255, 255);
+}
+
+.align-left {
+    float: left;
+    margin: 0 1.5rem 1rem 0;
+    border: 0.4rem black solid;
+    padding: 0.9rem;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.25);
+    background: (255, 255, 255);
+}
+
+blockquote {
+    border-left: 4px solid rgb(221,221,221);
+    font-style: italic;
+    margin:0 0 1.5rem 2rem;
+    padding: 1rem 2rem;
+    max-width: 40%;
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    color: #63605d ;
+}
+
+blockquote .author{
+    text-align: right;
+}
+
+main, aside {
+    float: left;
+}
+
+main {
+    width: 70%;
+}
+aside {
+    width: 30%;
+    padding: 0 0 0 4rem;
+}
