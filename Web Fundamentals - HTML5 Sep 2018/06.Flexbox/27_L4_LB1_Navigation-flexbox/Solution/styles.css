@@ -1,0 +1,87 @@
+html {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+body {
+    padding: 5rem;
+    background: #EEE;
+}
+h1 {
+    /*font-family: "Georgia", sans-serif;*/
+    font-size: 2em;
+    line-height: 1.2;
+}
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    /*display: block;
+    float: right;
+    margin-top: 2rem;*/
+
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+header nav ul:after {
+    display: flex;
+    content: '';
+    clear: both;
+}
+
+header nav li {
+    display: flex;
+    list-style: none outside;
+}
+
+header nav li a {
+    display: flex;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background: rgba(0,0,0,0.1);
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+header nav li a:focus,
+header nav li a:hover {
+    background: #090;
+    color: #FFF;
+}
+
+
+.site {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.site-title {
+    font-size: 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 5vw;
+    font-weight: bold;
+    color: #000;
+    display: inline-block;
+}
+
+/*.site > header:first-of-type {
+    border-bottom: 2px solid #000;
+}
+
+
+
+

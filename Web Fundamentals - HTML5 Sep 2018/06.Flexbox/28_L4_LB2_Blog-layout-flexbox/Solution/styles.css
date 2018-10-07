@@ -1,0 +1,112 @@
+
+
+body {
+    padding: 2em;
+    background:rgb(238, 238, 238);
+    font-family: "Helvetica", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header,h1,h2, blockquote {
+    font-family: "Georgia", serif;
+}
+
+header, h1, h2 {
+    font-size: 1em;
+}
+
+.page {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.page header {
+    flex: 1 0 100%;
+}
+
+.page:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.page > header:first-of-type {
+    border-bottom: 2px solid #000;
+}
+
+header .site-title {
+    font-size: 3rem;
+    min-width: 20vw;
+    padding-right: 5vw;
+    font-weight: bold;
+    color: #000;
+    display: inline-block;
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    border: 0.4rem black solid;
+    padding: 0.9rem;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+.align-left {
+    float: left;
+    margin: 0 1.5rem 1rem 0;
+    border: 0.4rem black solid;
+    padding: 0.9rem;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+blockquote {
+    border-left: 4px solid rgb(221,221,221);
+    font-style: italic;
+    margin:0 0 1.5rem 2rem;
+    padding: 1rem 2rem;
+    max-width: 40%;
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    color: #63605d ;
+}
+
+blockquote .author{
+    text-align: right;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+
+.page main {
+    /*width: 70%;*/
+    flex: 1 0 40rem; 
+}
+.page aside {
+    /*width: 30%;
+    padding: 0 0 0 4rem;*/
+    flex: 1 0 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start; 
+}
+
+.page aside section {
+    flex: 1 0 19rem;
+    /*padding-left: 4rem;*/
+}
+
+aside section ul li a {
+    color: rgb(0, 153, 0);
+}
+
+main article {
+    padding-right: 2rem;
+}
