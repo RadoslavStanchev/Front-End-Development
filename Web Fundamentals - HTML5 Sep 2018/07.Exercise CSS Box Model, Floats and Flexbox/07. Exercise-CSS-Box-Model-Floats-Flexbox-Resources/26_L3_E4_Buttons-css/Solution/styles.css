@@ -1,0 +1,54 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+body {
+    background: #EEE;
+}
+
+.normal-button {
+    border-radius: 16px;
+    padding: 6px;
+    background-color: #EEE;
+    color: #323232;
+    border: 2px solid #323232;
+    outline-style: none;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.normal-button:hover {
+    color: #155813;
+    border: 2px solid #155813;
+}
+
+.filled-button {
+    border-radius: 14px;
+    padding: 6px;
+    background-color: #333335;
+    color: #BAC1B1;
+    outline-style: none;
+    border: 2px solid #333335;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.filled-button:hover {
+    background-color: #006601;
+    color:#F3FFD5;
+    border: 2px solid #006601;
+}
+
+.icon-button {
+    font-size: 10px;
+    border-radius: 14px;
+    padding: 6px;
+    background-color: #343233;
+    color: #F2FCF3;
+    outline-style: none;
+    border: 2px solid #343233;
+    cursor: pointer;
+}
+
+.icon-button:hover {
+    background-color: #016502;
+    color: #F2FCF3;
+    border: 2px solid #016502;
+}

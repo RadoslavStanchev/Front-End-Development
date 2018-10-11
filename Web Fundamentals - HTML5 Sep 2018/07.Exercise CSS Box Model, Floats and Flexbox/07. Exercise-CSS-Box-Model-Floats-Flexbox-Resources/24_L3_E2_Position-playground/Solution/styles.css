@@ -1,0 +1,37 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+body { 
+    margin: 0;
+}
+
+.viewport {
+    height: 100vh;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    
+    width: 20%;
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(to right, #195D9D, #2D949F, #41C9A2);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(to right, #A83378, #BC5945, #D28213);
+}
+
+i { 
+    color: white;
+    position: absolute  ;
+}

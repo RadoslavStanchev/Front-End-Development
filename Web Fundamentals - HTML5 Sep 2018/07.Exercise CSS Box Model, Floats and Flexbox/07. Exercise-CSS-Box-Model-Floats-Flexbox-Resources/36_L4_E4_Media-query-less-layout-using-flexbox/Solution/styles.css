@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background: #EEEEEE;
+}
+
+/* Style the header */
+header {
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+    
+    color: black;
+    border: 0.4rem transparent;
+    padding: 0.9rem;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.25);
+
+    border-radius: 5px; 
+    margin: 10px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: right;
+    width: 37%;
+    height: 300px; /* only for demonstration, should be removed */
+
+    padding: 20px;
+
+    border: 1px  transparent;
+    
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    border-radius: 5px; 
+    margin: 10px;
+    
+}
+
+/* Style the list inside the menu */
+
+
+article {
+    float: left;
+    padding: 20px;
+    width: 60%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+    border: 1px  transparent;
+    
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    border-radius: 5px; 
+    margin: 10px;
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: left;
+    color: black;
+
+    border: 1px  transparent;
+    
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    border-radius: 5px; 
+    margin: 10px;
+}

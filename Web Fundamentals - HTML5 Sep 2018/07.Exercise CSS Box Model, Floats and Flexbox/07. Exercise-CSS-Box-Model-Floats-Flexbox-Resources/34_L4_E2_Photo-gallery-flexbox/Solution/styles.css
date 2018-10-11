@@ -1,0 +1,22 @@
+body {
+    background: #EEEEEE;
+    text-align: center;
+}
+
+.gallery {
+    
+    position: relative;
+    display: flex;  
+    justify-content: center;
+}
+
+.gallery  li{
+   
+    
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    padding: 1rem;
+    border: 4px solid #000; 
+    margin: 7px;
+}
