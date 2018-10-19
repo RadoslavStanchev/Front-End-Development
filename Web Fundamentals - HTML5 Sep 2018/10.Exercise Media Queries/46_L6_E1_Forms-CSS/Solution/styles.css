@@ -1,0 +1,45 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+body {
+    font-family: "Helvetica", sans-serif; 
+    font-size: 10px;
+}
+
+form {
+    margin: auto;
+    
+    background-color: #F9F9F9;
+    /* border: 1px solid black; */
+    padding: 2%;
+    width: 25%;
+    font-weight: 700;
+    border-radius: 6px;
+    position: relative;
+    z-index: 0;
+}
+
+ legend {
+    background: #F9F9F9;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 15px;
+    width: 6%;
+    position: absolute;
+    top: 22px;
+    left: 37px;
+    z-index: 1;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+i {
+    position: relative;
+    top: -1px;
+    right: -20px;
+}
+
+input {
+    padding-left: 20px
+}

@@ -1,87 +1,43 @@
-html {
-    font-family: "Helvetica", sans-serif;
-    font-size: 16px;
-    line-height: 1.2;
-}
 body {
-    padding: 5rem;
-    background: #EEE;
-}
-h1 {
-    /*font-family: "Georgia", sans-serif;*/
-    font-size: 2em;
-    line-height: 1.2;
-}
-header {
-    border-bottom: 2px solid rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	padding: 5em;
 }
 
-header a {
-    text-decoration: none;
+body > header:first-of-type {
+	border-bottom: 2px solid #000;
+	display: flex;
+	justify-content: space-between;
+}
+
+header .site-title {
+	min-width: 20vw;
+	font-weight: bold;
+	font-size: 3rem;
+	text-transform: uppercase;
 }
 
 header nav {
-    /*display: block;
-    float: right;
-    margin-top: 2rem;*/
-
 }
 
 header nav ul {
-    display: flex;
-    margin: 0;
-    padding: 2rem 0;
+	display: flex;
 }
 
-header nav ul:after {
-    display: flex;
-    content: '';
-    clear: both;
+header nav ul li {
+	display: block;
+	padding: 0 0.25rem;
 }
 
-header nav li {
-    display: flex;
-    list-style: none outside;
+header nav ul li a {
+	display: block;
+	padding: 0.5em 1rem;
+	text-decoration: none;
+	color: #090;
+	border-radius: 0.2rem;
 }
 
-header nav li a {
-    display: flex;
-    padding: 0.5rem 1rem;
-    border-radius: 0.3rem;
-    background: rgba(0,0,0,0.1);
-    color: rgb(0, 153, 0);
-    text-decoration: none;
+header nav ul li a:focus,
+header nav ul li a:hover {
+	outline: none;
+	background: #090;
+	color: #FFF;
 }
-
-header nav li a:focus,
-header nav li a:hover {
-    background: #090;
-    color: #FFF;
-}
-
-
-.site {
-    max-width: 60rem;
-    margin: 0 auto;
-}
-
-.site-title {
-    font-size: 2.5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-right: 5vw;
-    font-weight: bold;
-    color: #000;
-    display: inline-block;
-}
-
-/*.site > header:first-of-type {
-    border-bottom: 2px solid #000;
-}
-
-
-
-
